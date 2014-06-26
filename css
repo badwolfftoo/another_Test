@@ -1,0 +1,12 @@
+/*affiliations cycle */
+#affiliates-slideshow {
+    height: 110px;
+    width: 230px;
+    overflow: hidden;
+}
+#affiliates-slideshow .aff-slideshow {
+    height: 110px;
+    width: 230px;
+    backface-visibility: hidden; /* aded to fix firefox wiggle bug */
+    box-shadow: rgba(0,0,0,0.0) 0em 0em 0em; /* aded to fix firefox wiggle bug */
+}
